@@ -4,16 +4,16 @@ import java.util.Scanner;
 public class Tests {
 
     //private fields
-    private double average;
+    private double ave;
     private int count;
 
     //constructor
     public Tests(){
-        average = 0;
+        ave = 0;
         count = 0;
     }
 
-    //getAverage method
+    //getAve method
     public void getAverage(){
         Scanner sc = new Scanner(System.in);
 
@@ -34,9 +34,9 @@ public class Tests {
         count = numScores;
 
         if (count > 0){
-            average = sum / count;
+            ave = sum / count;
         } else {
-            average = Double.NaN;
+            ave = Double.NaN;
         }
     }
 
